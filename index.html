@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODOLIST</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;">My Todo List</h1>
+    <form name="todoForm">
+        <table>
+            <thead>
+                <tr>
+                    <th>Todo:</th>
+                    <th>
+                        <input type="text" id="inputTodo">
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Submit">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+    <br>
+    <br>
+    <table>
+        <thead>
+            <th>Search Todo:</th>
+            <th><input type="text" id="searchTodo"></th>
+        </thead>
+        <tbody id="tBody">
+            <tr>
+                <td>
+                    <input type="button" value="Done">
+                </td>
+                <td>
+                    Jadi Programmer
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <script type="module">
+        import * as module from "./js/aggregate.js"
+
+    </script>
+</body>
+
+</html>

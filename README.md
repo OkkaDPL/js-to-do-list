@@ -1,0 +1,1 @@
+js simple crud used partial module, without db server.
